@@ -11,13 +11,26 @@
         <link rel="stylesheet" href="../Stylesheets/style.css">
         <script src="/jQuery/jquery-3.7.1.js"></script>
     </head>
-
     <body>
         <div class="container-fluid navbar-container">
             <div class="row" id="navbarRow">
                 <nav id="navbar-holder"></nav>
             </div>
-        </div> 
+        </div>        
+        <div class="container content-holder">
+            <div class="content">
+                <p>You can contact me on:</p>
+                <ul>
+                    <li>email: PrzemekTGK@gmail.com</li>
+                    <li>mobile: +353857503266 </li>
+                </ul>
+                <p>My Links:</p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/przemek-stepien-985aa7a3/">LinkedIn</a></li>
+                    <li><a href="https://sam87.artstation.com/">ArtStation</a></li>
+                </ul>
+            </div>
+        </div>
         <script>
             $.get("navbar.html", function(data) {
             $("#navbar-holder").html(data);
