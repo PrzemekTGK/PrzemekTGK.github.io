@@ -74,6 +74,14 @@ h4{
     min-width: 380px;
 }
 
+.index-content{
+    margin: auto;
+    width: 75%;
+    padding: 20px;
+    text-align: center;
+    min-width: 380px;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0%;
