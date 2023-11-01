@@ -1,20 +1,87 @@
+
 .navbar-brand{
-    font-size: x-large;
+    color: rgb(189, 189, 189);
+    font-size: xx-large;
     font-weight: 600;
-    color: white;
+    margin:15px;
+}
+
+.nav-item{
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .nav-link{
     font-size: large;
-    color: white;
+
 }
 
 #navbarRow{
     margin: auto;
-    
 }
 
 #navbarContainer{
     background-color: rgba(26, 26, 26, 0.966);
     
+}
+
+.navbar-toggler:hover{
+    border: 2px solid rgb(100, 100, 100);
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+.navSlideIn {
+    float:down;
+    animation-duration: 1s;
+    animation-name: slideIn;
+}
+
+@keyframes slideIn {
+    from {
+        margin-top: -30%;
+    }
+    to {
+        margin-top: 0%;
+    }
+}
+
+footer{
+    background-color: rgba(26, 26, 26, 0.966);
+}
+
+.navbar a:hover {
+    color: rgb(100, 100, 100);
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-width: 500px;
+    background-color: rgb(189, 189, 189);
+}
+
+#about{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    border: 3px solid rgba(26, 26, 26, 0.966);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: larger;
+    animation-duration: 2s;
+    animation-name: fadeIn;
+    min-width: 420px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
 }
