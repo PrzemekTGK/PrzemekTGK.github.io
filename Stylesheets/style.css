@@ -22,7 +22,7 @@
 
 .navbar-container{
     background-color: rgba(26, 26, 26, 1);
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .navbar-toggler:hover{
@@ -53,12 +53,17 @@ body{
     background-color: rgb(189, 189, 189);
 }
 
-.about-holder{
+h4{
+    font-weight: bold;
+}
+
+.copnent-holder{
     position: relative;
 }
 
-.about{
+.content{
     margin: auto;
+    margin-bottom: 5%;
     width: 75%;
     border: 3px solid rgba(26, 26, 26, 0.966);
     border-radius: 10px;
