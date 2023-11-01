@@ -12,17 +12,18 @@
 }
 
 .nav-link{
+    color: rgb(189, 189, 189);
     font-size: large;
-
 }
 
 #navbarRow{
     margin: auto;
 }
 
-#navbarContainer{
-    background-color: rgba(26, 26, 26, 0.966);
-    
+.navbar-container{
+    background-color: rgba(26, 26, 26, 1);
+    margin-bottom: 10px;
+
 }
 
 .navbar-toggler:hover{
@@ -61,7 +62,7 @@ body{
     background-color: rgb(189, 189, 189);
 }
 
-.aboutHolder{
+.about-holder{
     position: relative;
 }
 
