@@ -1,7 +1,21 @@
 .navbar-brand{
     font-size: x-large;
     font-weight: 600;
+    color: white;
 }
-.nav-item{
+
+.nav-link{
     font-size: large;
+    color: white;
+}
+
+#navbarRow{
+    margin: auto;
+    
+}
+
+#navbarContainer{
+    flex: 100%;
+    background-color: rgba(26, 26, 26, 0.966);
+    
 }
