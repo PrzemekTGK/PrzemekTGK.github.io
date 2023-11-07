@@ -71,7 +71,7 @@ h4{
     font-size: larger;
     animation-duration: 2s;
     animation-name: fadeIn;
-    min-width: 380px;
+    min-width: 30px;
 }
 
 .index-content{
