@@ -17,9 +17,11 @@ function printLyrics() {
         if (i === 97) {
             printToDiv(numBottles + lyricPt1 + numBottles + lyricPt2 + "<br>");
             printToDiv(lyricPt3 + --numBottles + " bottle of beer on the wall" + "<br>");
+            printToDiv("<br>");
         } else if (i === 98) {
             printToDiv(numBottles + " bottle of beer on the wall, " + numBottles + " bottle of beer" + "<br>");
             printToDiv(lyricPt3 + "no more bottles of beer on the wall" + "<br>");
+            printToDiv("<br>");
         } else if (i === 99) {
             numBottles = i;
             printToDiv("No more" + lyricPt1 + "no more" + lyricPt2 + "<br>");
@@ -27,6 +29,7 @@ function printLyrics() {
         } else {
             printToDiv(numBottles + lyricPt1 + numBottles + lyricPt2 + "<br>");
             printToDiv(lyricPt3 + --numBottles + lyricPt4 + "<br>");
+            printToDiv("<br>");
         }
     }
 }
