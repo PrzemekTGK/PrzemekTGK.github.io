@@ -53,19 +53,17 @@ function playRound(playerInput) {
     }
 
     document.getElementById('result').innerHTML = result;
-
-    if (roundsPlayed == maxRounds) {
-        setButtonsOff(true);
-        setTimeout(function () {
-            alert("You Loose!");
-            resetGame();
-        }, 1000);
-    } else 
-
+    
     if (playerWon){
         setButtonsOff(true);
         setTimeout(function () {
             alert("You Won!");
+            resetGame();
+        }, 1000);
+    } else if (roundsPlayed === maxRounds) {
+        setButtonsOff(true);
+        setTimeout(function () {
+            alert("You Loose!");
             resetGame();
         }, 1000);
     }
