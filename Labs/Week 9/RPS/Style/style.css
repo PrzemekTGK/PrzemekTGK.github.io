@@ -19,3 +19,7 @@ body{
     margin-top: 1%;
     padding: 1%
 }
+
+#gameDiv{
+    display: none;    
+}

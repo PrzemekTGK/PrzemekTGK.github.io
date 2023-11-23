@@ -16,6 +16,13 @@
                 <div class="container-fluid game-div">
                     <h1>Rock Paper Scissors</h1>
                 </div>
+                <div class="container-fluid game-div" id="menuDiv">
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="button" class="btn btn-light" onclick="startGame()" id="playButton">Play</button>
+                        </div>
+                    </div> 
+                </div>
                 <div class="container-fluid game-div" id="gameDiv">
                     <div class="row">
                         <div class="col-12"><h1 id="result"></h1></div>
@@ -30,9 +37,9 @@
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <button type="button" class="btn btn-light" onclick="play('rock')" id="rockButton">Rock</button>
-                            <button type="button" class="btn btn-light" onclick="play('paper')" id="paperButton">Paper</button>
-                            <button type="button" class="btn btn-light" onclick="play('scissors')" id="scissorsButton">Scissors</button>
+                            <button type="button" class="btn btn-light" onclick="playRound(this.id)" id="rock">Rock</button>
+                            <button type="button" class="btn btn-light" onclick="playRound(this.id)" id="paper">Paper</button>
+                            <button type="button" class="btn btn-light" onclick="playRound(this.id)" id="scissors">Scissors</button>
                         </div>
                     </div>                
                 </div>
