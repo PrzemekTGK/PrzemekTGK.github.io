@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+.img-choice{
+    padding:2%
+}
+
+.btn{
+    border: 2px solid black; min-width: 100px;
+}
+
+.game-div{
+    max-width: 50%; 
+    max-height: 50%; 
+    border: 5px solid black; 
+    border-radius: 25px; 
+    text-align: center; 
+    margin-top: 1%;
+    padding: 1%
+}
+
+#gameDiv{
+    display: none;    
+}
