@@ -50,9 +50,8 @@ if (isNaN(numSubjects) || numSubjects <= 0) {
     
     for (let i = 0; i < numSubjects; i++) {
         var result = parseFloat(prompt(`Enter the result for Subject ${i + 1}:`));
-
+        
         var resultValid = false;
-
         do {
             if (isNaN(result) || result < 0 || result > 100) {
                 alert("Please enter a valid result for each subject.");
